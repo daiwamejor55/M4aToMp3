@@ -1,0 +1,9 @@
+[project]
+name = "m4a2mp3"
+version = "1.0.0"
+description = "m4a ファイルの連番削除と MP3 変換を行うデスクトップアプリ"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
